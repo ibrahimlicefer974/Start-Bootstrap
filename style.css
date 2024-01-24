@@ -16,6 +16,8 @@ section {
 
 header {
   background-color: #212529;
+  position: fixed;
+  width: 100%;
 }
 header .menu {
   padding: 18px 0;
@@ -55,5 +57,49 @@ header .menu nav a:hover {
     font-weight: 700;
     color: #949698;
     padding-right: 30px;
+  }
+}
+
+#ourstudio {
+  background-image: url("https://raw.githubusercontent.com/startb00tstrap/startb00tstrapagency/main/header-bg.jpg");
+  height: 730px;
+  background-size: cover;
+  background-position: center;
+}
+#ourstudio .textbox {
+  margin-top: 160px;
+  color: white;
+}
+#ourstudio .textbox h1 {
+  font-size: 40px;
+}
+#ourstudio .textbox h3 {
+  font-size: 80px;
+  font-weight: 700;
+  margin: 30px 0 60px;
+}
+#ourstudio .textbox .btn {
+  color: white;
+  font-size: 22px;
+  font-weight: 700;
+  background-color: #ffc800;
+  padding: 17px 47px;
+  border-radius: 6px;
+}
+#ourstudio .textbox .btn:hover {
+  background-color: #d9aa00;
+}
+#ourstudio .textbox .btn h2 {
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  #ourstudio .textbox {
+    margin-top: 140px;
+  }
+  #ourstudio .textbox h1 {
+    font-size: 30px;
+  }
+  #ourstudio .textbox h3 {
+    font-size: 65px;
   }
 }/*# sourceMappingURL=style.css.map */
