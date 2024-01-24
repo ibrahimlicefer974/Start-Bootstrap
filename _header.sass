@@ -1,0 +1,31 @@
+header
+    background-color: #212529
+    .menu
+        padding: 18px 0
+        .imgbox
+            width: 140px
+            img
+                cursor: pointer
+        nav
+            font-size: 20px
+            a
+                margin-left: 25px
+                cursor: pointer
+                &:hover
+                    color: #e4b30e
+    @media screen and ( min-width: 991px )
+        .menu
+            padding: 26px 0
+            .btn
+                display: none
+    @media screen and ( max-width: 991px )
+        nav
+            a
+                display: none
+            .btn
+                border: 1px solid #2f3337
+                border-radius: 6px
+                font-size: 17px
+                font-weight: 700
+                color: #949698
+                padding-right: 30px
