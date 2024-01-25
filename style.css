@@ -62,12 +62,12 @@ header .menu nav a:hover {
 
 #ourstudio {
   background-image: url("https://raw.githubusercontent.com/startb00tstrap/startb00tstrapagency/main/header-bg.jpg");
-  height: 730px;
-  background-size: cover;
+  padding: 190px 0;
   background-position: center;
+  background-size: cover;
 }
 #ourstudio .textbox {
-  margin-top: 160px;
+  margin-top: 79px;
   color: white;
 }
 #ourstudio .textbox h1 {
@@ -93,13 +93,16 @@ header .menu nav a:hover {
   cursor: pointer;
 }
 @media screen and (max-width: 768px) {
+  #ourstudio {
+    padding: 60px 0;
+  }
   #ourstudio .textbox {
-    margin-top: 140px;
+    margin-top: 105px;
   }
   #ourstudio .textbox h1 {
     font-size: 30px;
   }
   #ourstudio .textbox h3 {
-    font-size: 65px;
+    font-size: 60px;
   }
 }/*# sourceMappingURL=style.css.map */
