@@ -106,4 +106,31 @@ header .menu nav a:hover {
     font-size: 73px;
     margin: 20px 0 20px;
   }
+}
+
+#services .textbox {
+  text-align: center;
+}
+#services .textbox h1, #services .textbox h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+#services .textbox h3, #services .textbox h4 {
+  font-size: 20px;
+  color: #a5abb0;
+  margin: 20px 0 40px;
+}
+#services .textbox .icon {
+  font-size: 67px;
+  padding: 20px 0;
+  background-color: #ffc800;
+  color: white;
+}
+#services .textbox h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+#services .textbox h4 {
+  line-height: 1.4;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
