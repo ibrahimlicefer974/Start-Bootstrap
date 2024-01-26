@@ -20,7 +20,7 @@ header {
   width: 100%;
 }
 header .menu {
-  padding: 18px 0;
+  padding: 17px 0;
 }
 header .menu .imgbox {
   width: 140px;
@@ -40,7 +40,7 @@ header .menu nav a:hover {
 }
 @media screen and (min-width: 991px) {
   header .menu {
-    padding: 26px 0;
+    padding: 24px 0;
   }
   header .menu .btn {
     display: none;
@@ -62,7 +62,7 @@ header .menu nav a:hover {
 
 #ourstudio {
   background-image: url("https://raw.githubusercontent.com/startb00tstrap/startb00tstrapagency/main/header-bg.jpg");
-  padding: 190px 0;
+  padding: 200px 0;
   background-position: center;
   background-size: cover;
 }
@@ -118,17 +118,19 @@ header .menu nav a:hover {
 #services .textbox h3, #services .textbox h4 {
   font-size: 20px;
   color: #a5abb0;
-  margin: 20px 0 40px;
+  margin: 20px 0 65px;
 }
 #services .textbox .icon {
-  font-size: 67px;
-  padding: 20px 0;
+  font-size: 65px;
+  padding: 30px 0;
+  margin: 0 143px;
   background-color: #ffc800;
   color: white;
+  border-radius: 50%;
 }
 #services .textbox h2 {
-  font-size: 30px;
-  margin: 20px 0;
+  font-size: 31px;
+  margin: 15px 0 20px;
 }
 #services .textbox h4 {
   line-height: 1.4;
